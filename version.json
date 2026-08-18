@@ -1,12 +1,13 @@
 {
   "version": "1.0.0",
-  "min_version": "2.0.0",
+  "min_version": "1.0.0",
   "released": "2026-08-17",
   "platforms": {
     "windows": {
       "url": "https://github.com/intisariapps-com/intisariShortMovie/releases/download/v1.0.0/intisariShortMovie-windows.zip",
-      "sha256": "869e6cc2ae58d99d788f39eb88aa9ee3a03b1b99b59700d71bd3a3aa4cb86105",
-      "size_mb": 25.23
+      "sha256": "5c1b68c7fa36a646b662f0e46692bb906b4ae95f1819928c620f74c5a08bec89",
+      "size_mb": 155.13,
+      "setup_url": "https://github.com/intisariapps-com/intisariShortMovie/releases/download/v1.0.0/intisariShortMovie-Setup.exe"
     }
   },
   "notes": "Rilis awal versi 1.0.0 desktop app AutoVid Factory"
