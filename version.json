@@ -5,7 +5,7 @@
   "platforms": {
     "windows": {
       "url": "https://github.com/intisariapps-com/intisariShortMovie/releases/download/v1.1.0/intisariShortMovie-windows.zip",
-      "sha256": "174cea153cd3c9533f4b47a5a0986d33fdaa95395e36d69053d6fdc4094a187a",
+      "sha256": "af513131510bcb50a2cdb27397e622f064e63206cad7f1f5b7112ff27bb48479",
       "size_mb": 132.35,
       "setup_url": "https://github.com/intisariapps-com/intisariShortMovie/releases/download/v1.1.0/intisariShortMovie-Setup.exe"
     }
