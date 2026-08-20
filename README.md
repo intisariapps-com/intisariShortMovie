@@ -1,16 +1,16 @@
-# 🎬 AutoVid Factory
+# 🎬 Intisari Short Movie
 
 > **Buat ratusan video pendek berkualitas tinggi — dari naskah hingga video jadi — dalam hitungan menit.**
 
-AutoVid Factory adalah aplikasi desktop Windows yang mengotomatiskan seluruh proses produksi video pendek *faceless* (tanpa wajah), mulai dari pembuatan storyboard, pencocokan gambar AI, sinkronisasi voiceover, subtitle karaoke, hingga ekspor video final siap upload.
+**Intisari Short Movie** adalah aplikasi desktop Windows yang mengotomatiskan seluruh proses produksi video pendek *faceless* (tanpa wajah), mulai dari pembuatan storyboard, pencocokan gambar AI, sinkronisasi voiceover, subtitle karaoke, hingga ekspor video final siap upload.
 
 Cocok untuk kreator konten TikTok, YouTube Shorts, Instagram Reels, dan agensi media yang butuh produksi video massal secara efisien.
 
 ---
 
-## ⚡ Apa yang Bisa Dilakukan AutoVid Factory?
+## ⚡ Apa yang Bisa Dilakukan Intisari Short Movie?
 
-| Tanpa AutoVid Factory | Dengan AutoVid Factory |
+| Tanpa Intisari Short Movie | Dengan Intisari Short Movie |
 |---|---|
 | Buat naskah manual, copy-paste satu per satu | Naskah diekstrak otomatis dari Gemini Chat |
 | Generate gambar AI satu per satu di Google Flow | Gambar di-generate & diunduh otomatis |
@@ -30,7 +30,7 @@ Dipasang di Google Chrome, ekstensi ini bekerja di latar belakang untuk:
 
 **Hasilnya:** Anda cukup memasukkan judul cerita ke Gemini — sisanya dikerjakan otomatis.
 
-### 🖥️ AutoVid Factory — Aplikasi Desktop
+### 🖥️ Intisari Short Movie — Aplikasi Desktop
 Aplikasi utama yang mengambil alih setelah FlowAutoBridge selesai:
 - Mendeteksi dan menyusun gambar, audio voiceover, dan naskah secara otomatis.
 - Membuat subtitle karaoke animasi yang muncul kata per kata (mirip style kreator viral).
