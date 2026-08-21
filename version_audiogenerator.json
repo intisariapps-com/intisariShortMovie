@@ -1,10 +1,10 @@
 {
-  "version": "1.0.0",
-  "min_version": "1.0.0",
+  "version": "2.0.0",
+  "min_version": "2.0.0",
   "released": "2026-08-21",
   "platforms": {
     "web": {
-      "setup_url": "https://github.com/intisariapps-com/audioGenerator/releases/download/v1.0.0/audioGenerator-Setup.exe"
+      "setup_url": "https://gemini.google.com/share/6d8e4c4554c4?skid=50dc79a6-40c6-4861-8b90-0f8cf5aad4e4"
     }
   },
   "notes": "Rilis awal aplikasi Audio Generator: Penggabungan dan kloning suara AI berbasis TTS tingkat lanjut."
