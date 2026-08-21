@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "min_version": "1.0.0",
+  "released": "2026-08-21",
+  "platforms": {
+    "windows": {
+      "url": "https://github.com/intisariapps-com/imageGenerator/releases/download/v1.0.0/imageGenerator-windows.zip",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_mb": 120.0,
+      "setup_url": "https://github.com/intisariapps-com/imageGenerator/releases/download/v1.0.0/imageGenerator-Setup.exe"
+    }
+  },
+  "notes": "Rilis awal aplikasi Image Generator: Pembuatan visual AI resolusi tinggi secara otomatis."
+}
