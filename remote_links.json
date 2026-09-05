@@ -1,0 +1,30 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-09-05",
+  "tools": [
+    {
+      "id": "text_to_audio",
+      "title": "Text to Audio",
+      "description": "Web pembuatan teks narasi menjadi suara audio AI",
+      "url": "https://gemini.google.com/share/8fb718cd5571?skid=bde2f5bb-f774-4f59-a40a-82c013a79b9d",
+      "icon": "mic",
+      "badge": "TTS AI",
+      "badge_color": "indigo",
+      "style": "secondary",
+      "is_active": true,
+      "order": 1
+    },
+    {
+      "id": "flow_gemini",
+      "title": "Flow Gemini Tools",
+      "description": "Alat bantu otomasi prompt gambar Google Flow & Gemini",
+      "url": "https://labs.google/fx/tools/flow/shared/tool/44e0258c-a2aa-4515-8863-291877d330cd",
+      "icon": "sparkles",
+      "badge": "Flow Tools",
+      "badge_color": "emerald",
+      "style": "primary",
+      "is_active": true,
+      "order": 2
+    }
+  ]
+}
