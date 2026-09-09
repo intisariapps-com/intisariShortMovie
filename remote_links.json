@@ -25,6 +25,18 @@
       "style": "primary",
       "is_active": true,
       "order": 2
+    },
+    {
+      "id": "intisari_short_movie_gens",
+      "title": "INTISARI SHORT MOVIE GENS",
+      "description": "AI generator naskah & prompt Intisari Short Movie",
+      "url": "https://gemini.google.com/gem/18N81oTntEwT1vUqAZg851IM4GoIdszZc?usp=sharing",
+      "icon": "gemini",
+      "badge": "Gemini AI",
+      "badge_color": "amber",
+      "style": "primary",
+      "is_active": true,
+      "order": 3
     }
   ]
 }
