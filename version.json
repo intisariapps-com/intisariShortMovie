@@ -1,14 +1,12 @@
 {
-  "version": "1.0.0",
-  "min_version": "1.0.0",
+  "version": "1.1.0",
+  "min_version": "1.1.0",
   "released": "2026-08-20",
-  "extension_version": "1.0.0",
-  "extension_notes": "Rilis awal FlowAutoBridge: Ekstraksi storyboard Gemini, otomatisasi Google Flow, dan unduhan gambar otomatis.",
   "platforms": {
     "windows": {
-      "url": "https://github.com/intisariapps-com/intisariShortMovie/releases/download/v1.0.0/intisariShortMovie-windows.zip",
-      "sha256": "a91df2dc5d17c806c92b7c0ea11cee4edf57506ee518780266c2af9bbed492c0",
-      "size_mb": 132.35,
+      "url": "https://github.com/intisariapps-com/intisariShortMovie/releases/download/v1.1.0/intisariShortMovie-windows.zip",
+      "sha256": "e1304c4e8e73a00466acbeb513aa2629a60c48b3c9e44d13c61709e925d90917",
+      "size_mb": 137.45,
       "setup_url": "https://github.com/intisariapps-com/intisariShortMovie/releases/download/v1.1.0/intisariShortMovie-Setup.exe"
     }
   },
