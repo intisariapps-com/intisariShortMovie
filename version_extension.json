@@ -1,4 +1,4 @@
 {
-  "extension_version": "2.0.0",
-  "extension_notes": "Rilis awal FlowAutoBridge: Ekstraksi storyboard Gemini, otomatisasi Google Flow, dan unduhan gambar otomatis."
+  "extension_version": "2.3.3",
+  "extension_notes": "Fix 3 bug kritis download JSON: (1) deteksi nomor bab dari kata 'Part' (Part01/Part02) agar chapterMap tidak tabrakan; (2) nama file deterministik berbasis timestamp yymmdd_hhmm menggantikan hash acak 4 karakter; (3) sub-folder proyek otomatis (intisariShortMovie/[Judul Proyek]/) agar JSON terorganisir dan tidak bercampur di folder Downloads."
 }
