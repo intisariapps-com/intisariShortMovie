@@ -1,14 +1,13 @@
 {
-  "version": "1.2.0",
-  "min_version": "1.2.0",
-  "released": "2026-08-20",
+  "version": "2.0.0",
+  "min_version": "2.0.0",
+  "released": "2026-10-08",
   "platforms": {
     "windows": {
-      "url": "https://github.com/intisariapps-com/intisariShortMovie/releases/download/v1.1.0/intisariShortMovie-windows.zip",
-      "sha256": "7eb64ca18b562aa4d564ca25e4141f8743bf556f9422431b757ab59c84acbca8",
-      "size_mb": 144.83,
-      "setup_url": "https://github.com/intisariapps-com/intisariShortMovie/releases/download/v1.1.0/intisariShortMovie-Setup.exe"
+      "url": "https://github.com/intisariapps-com/intisariShortMovie/releases/download/v2.0.0/intisariShortMovie-windows.zip",
+      "sha256": "d7551203bcf38d50554f4c8a662609146d94a821a00bcad31effa67f26bc6beb",
+      "size_mb": 240.69,
+      "setup_url": "https://github.com/intisariapps-com/intisariShortMovie/releases/download/v2.0.0/intisariShortMovie-Setup.exe"
     }
   },
-  "notes": "Pembaruan v1.2.0: Menggunakan parser HTTP h11 untuk mengatasi crash httptools pada file EXE, serta mengaktifkan evaluasi status is_mandatory untuk pop-up update wajib di frontend."
-}
+  "notes": "Rilis Akbar v2.0.0 (The Cinematic & Swarm Era): Integrasi AI Director multi-provider dengan 48 gaya visual, arsitektur prompt Subject-First, perencanaan variasi shot sinematik & audit repetisi shot (SRS-40), otomatisasi render multi-worker swarm 10 profil browser, Studio NLE interaktif dengan smooth playhead scrubbing 60 FPS, theater fullscreen mode, AI Smart BGM matcher, live API key healthcheck, auto-crop 9:16, dan anti-static particle overlay engine."
