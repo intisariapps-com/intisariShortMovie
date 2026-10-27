@@ -4,7 +4,7 @@
   "released": "2026-08-21",
   "platforms": {
     "Web": {
-      "setup_url": "https://labs.google/fx/tools/flow/shared/tool/a90b3186-d08e-458e-9b90-97831e707b71"
+      "setup_url": "https://flow.google.com/shared/tool/972b57b2-69ab-44e6-bb73-9c15f0dd28a4"
     }
   },
   "notes": "Rilis awal aplikasi Image Generator: Pembuatan visual AI resolusi tinggi secara otomatis."
