@@ -1,34 +1,34 @@
 {
-  "version": "2.0.0",
-  "min_version": "2.0.0",
-  "released": "2026-10-08",
+  "version": "2.0.1",
+  "min_version": "2.0.1",
+  "released": "2026-10-31",
   "platforms": {
     "windows": {
-      "url": "https://github.com/intisariapps-com/intisariShortMovie/releases/download/v2.0.0/intisariShortMovie-windows.zip",
-      "sha256": "51bed536db7853edbad379fc9bd6423d127fb2e5f106004fce86eec83e8b13b9",
-      "size_mb": 240.72,
-      "setup_url": "https://github.com/intisariapps-com/intisariShortMovie/releases/download/v2.0.0/intisariShortMovie-Setup.exe"
+      "url": "https://github.com/intisariapps-com/intisariShortMovie/releases/download/v2.0.1/intisariShortMovie-windows.zip",
+      "sha256": "5784921161f28be4df79aaf13546653000e6c13d1dcd76d843411f7320c00c99",
+      "size_mb": 240.73,
+      "setup_url": "https://github.com/intisariapps-com/intisariShortMovie/releases/download/v2.0.1/intisariShortMovie-Setup.exe"
     },
     "mac_arm64": {
       "dmg_name": "intisariShortMovie-mac-arm64.dmg",
-      "dmg_url": "https://github.com/intisariapps-com/intisariShortMovie/releases/download/v2.0.0/intisariShortMovie-mac-arm64.dmg",
-      "url": "https://github.com/intisariapps-com/intisariShortMovie/releases/download/v2.0.0/intisariShortMovie-mac-arm64.zip",
-      "sha256": "275f1cbcbc1a491799bb63a2e6820ee017abc7396217c796cd79984b7adb1228",
-      "size_mb": 191.35,
+      "dmg_url": "https://github.com/intisariapps-com/intisariShortMovie/releases/download/v2.0.1/intisariShortMovie-mac-arm64.dmg",
+      "url": "https://github.com/intisariapps-com/intisariShortMovie/releases/download/v2.0.1/intisariShortMovie-mac-arm64.zip",
+      "sha256": "c75c479d343a890005bbac5589f55a5199502759355b23d0be89e0cf634ef1d3",
+      "size_mb": 191.45,
       "zip_name": "intisariShortMovie-mac-arm64.zip",
-      "zip_sha256": "b11a46c0476d4e294613ea478940e91c4105f1b68724873fd515aceb945ec0d0",
+      "zip_sha256": "e9676dfcc31236d5f6fab01114e0f27efa77cbf397335648f1101cdde2c48ee7",
       "zip_size_mb": 182.17
     },
     "mac_x86": {
       "dmg_name": "intisariShortMovie-mac-x86.dmg",
-      "dmg_url": "https://github.com/intisariapps-com/intisariShortMovie/releases/download/v2.0.0/intisariShortMovie-mac-x86.dmg",
-      "url": "https://github.com/intisariapps-com/intisariShortMovie/releases/download/v2.0.0/intisariShortMovie-mac-x86.zip",
-      "sha256": "29fd97113475884129e8ac9a6379070cab5c63353681a277c1a0c47573487293",
-      "size_mb": 251.38,
+      "dmg_url": "https://github.com/intisariapps-com/intisariShortMovie/releases/download/v2.0.1/intisariShortMovie-mac-x86.dmg",
+      "url": "https://github.com/intisariapps-com/intisariShortMovie/releases/download/v2.0.1/intisariShortMovie-mac-x86.zip",
+      "sha256": "0f45d5efae87aff501457888f48abc0baa5bc4fc14718c383c9fd93604f873b3",
+      "size_mb": 252.28,
       "zip_name": "intisariShortMovie-mac-x86.zip",
-      "zip_sha256": "e1855f254c21a1fcab191f324f2db90b82f1031425b81805d92cf8d181a0e8da",
+      "zip_sha256": "83d8efa251d2fe7743ca92ed067db06a8f971a898ea6684e112ebb03f3830c2f",
       "zip_size_mb": 235.02
     }
   },
-  "notes": "Rilis Akbar v2.0.0 (The Cinematic & Swarm Era): Integrasi AI Director multi-provider dengan 48 gaya visual, arsitektur prompt Subject-First, perencanaan variasi shot sinematik & audit repetisi shot (SRS-40), otomatisasi render multi-worker swarm 10 profil browser, Studio NLE interaktif dengan smooth playhead scrubbing 60 FPS, theater fullscreen mode, AI Smart BGM matcher, live API key healthcheck, auto-crop 9:16, dan anti-static particle overlay engine."
+  "notes": "Rilis Stabil v2.0.1 (The Resilient Director & Universal Sync): Resiliensi mesin AI Director dengan fast-failover cookie 0.6s dan batas waktu realistis 75s, pop-up error modal terstruktur, FlowAutoBridge standalone engine & eksportir draf CapCut 1-klik, otomatisasi subfolder proyek, akselerasi GPU multi-platform (QSV/VideoToolbox/NVENC), perbaikan rasio 16:9 thumbnail WebKit macOS, storyboard skala besar 100-250 adegan, dan pre-flight guard Groq Whisper."
 }
