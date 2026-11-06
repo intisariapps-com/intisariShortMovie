@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updated_at": "2026-09-05",
+  "updated_at": "2026-11-06",
   "tools": [
     {
       "id": "text_to_audio",
@@ -38,5 +38,12 @@
       "is_active": true,
       "order": 3
     }
-  ]
+  ],
+  "extension_version": "2.9.0",
+  "skills_hub": {
+    "universal_plugin": "https://raw.githubusercontent.com/intisariapps-com/intisariShortMovie/main/skills/flow-storyboard-director-plugin.zip",
+    "flow_storyboard_skill": "https://raw.githubusercontent.com/intisariapps-com/intisariShortMovie/main/skills/flow-storyboard-director-skill.zip",
+    "realita_pov_skill": "https://raw.githubusercontent.com/intisariapps-com/intisariShortMovie/main/skills/realita-pov-scriptwriter.zip",
+    "faceless_documentary_skill": "https://raw.githubusercontent.com/intisariapps-com/intisariShortMovie/main/skills/faceless-documentary-script.zip"
+  }
 }
