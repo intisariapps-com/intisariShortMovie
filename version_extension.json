@@ -1,4 +1,4 @@
 {
-  "extension_version": "2.9.0",
-  "extension_notes": "Sliding Window Burst Prompt Pipeline (v2.9.0): Pengiriman konkuren 3-5 prompt sekaligus ke Google Flow dengan staggered throttle dan validasi unduhan asinkron multi-kandidat presisi untuk mempercepat render hingga 4x lipat."
+  "extension_version": "2.9.5",
+  "extension_notes": "Canvas Snapshot Baseline & Anti-Loop Concurrency Guard (v2.9.5-stable): Otomasi stabil Google Flow dengan validasi snapshot canvas, fallback offline antrean lokal, dan perlindungan isolasi top-frame."
 }
