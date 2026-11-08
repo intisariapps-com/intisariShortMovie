@@ -1,0 +1,442 @@
+{
+  "app_name": "Intisari ShortMovie & ImageFlow",
+  "total_styles": 48,
+  "description": "Katalog Resmi 48 Preset Gaya Visual Intisari ShortMovie untuk Knowledge Base Custom GPTs dan Gemini Custom Gems.",
+  "usage_instruction": "Pilih salah satu nomor atau ID gaya visual. Standar format rasio Visual Asset Research adalah 16:9 widescreen sinematik. Suntikkan prompt_modifier ke dalam image_prompt dan visual_reference, serta gunakan avoid_tokens pada blok [Avoid: ...]. DILARANG menggunakan kata-kata terlarang di avoid_tokens.",
+  "styles": [
+    {
+      "number": 1,
+      "id": "doodle_stickman",
+      "name": "Doodle Stickman",
+      "category": "Animasi & 3D",
+      "description": "Garis tinta hitam minimalis 2D monokrom di atas kanvas off-white layar penuh.",
+      "prompt_modifier": "full-bleed 2D minimalist doodle stickman illustration, edge-to-edge drawing, expressive hand-drawn black ink contour lines, clean seamless solid off-white canvas, zero physical paper borders",
+      "avoid_tokens": "hands, fingers, holding paper, photorealistic, photograph, camera, real life, realistic human, mockup, sketchbook, border, frame, white margins, 3D render, cgi, complex shading, glossy, hyperrealistic, split screen, comic panels, collage"
+    },
+    {
+      "number": 2,
+      "id": "ink_paper",
+      "name": "Ink & Paper (Sumi-e)",
+      "category": "Artistik & Retro",
+      "description": "Sapuan tinta kaligrafi sumi-e dinamis 2D dengan gradasi tonal estetik.",
+      "prompt_modifier": "full-bleed traditional sumi-e ink painting, edge-to-edge 2D composition, expressive black calligraphic strokes, dynamic ink wash bleeding, aged parchment texture overlay, restrained tonal contrast, zero physical margins",
+      "avoid_tokens": "hands, holding paper, easel, physical frame, desk, mockup, neon, CGI, modern 3D, glossy, digital photo, vibrant saturated color, split screen, comic panels, collage"
+    },
+    {
+      "number": 3,
+      "id": "whiteboard_sketch",
+      "name": "Whiteboard Sketch",
+      "category": "Animasi & 3D",
+      "description": "Ilustrasi spidol infografis bersih 2D bergaya penjelasan papan tulis.",
+      "prompt_modifier": "clean dry-erase marker 2D explainer illustration, sharp black and blue marker outlines, dynamic diagrammatic sketch style, solid clean white background, edge-to-edge layout",
+      "avoid_tokens": "hands holding marker, realistic human fingers, corporate desk, mockup, photorealistic, oil painting, 3D render, dark vignette, complex gradient, split screen, comic panels, collage"
+    },
+    {
+      "number": 4,
+      "id": "flat_vector",
+      "name": "Flat Vector Modern",
+      "category": "Animasi & 3D",
+      "description": "Bentuk geometris, garis bersih, dan warna harmonis bergaya vektor modern 2D.",
+      "prompt_modifier": "modern flat vector illustration, bold geometric shapes, clean crisp outlines, vibrant harmonious color palette, contemporary graphic design aesthetic, edge-to-edge planar 2D",
+      "avoid_tokens": "3D render, photographic grain, complex shadows, photorealism, texture detail, hands, mockup, frame, split screen, comic panels, collage"
+    },
+    {
+      "number": 5,
+      "id": "kartun_ceria",
+      "name": "Kartun Ceria 2D",
+      "category": "Animasi & 3D",
+      "description": "Kartun 2D dengan bentuk ekspresif dan warna hangat cerah.",
+      "prompt_modifier": "joyful 2D cartoon animation style, lively expressive shapes, vibrant warm saturated colors, playful clean outlines, wholesome storybook rendering",
+      "avoid_tokens": "somber, dark shadows, gritty photorealism, dull desaturated, horror, split screen, comic panels, collage"
+    },
+    {
+      "number": 6,
+      "id": "cat_air",
+      "name": "Cat Air (Watercolor)",
+      "category": "Artistik & Retro",
+      "description": "Pigmen transparan, tepian lembut, dan sapuan pigmen basah bergaya cat air 2D.",
+      "prompt_modifier": "delicate watercolor painting, full-bleed 2D composition, wet-on-wet pigment blooms, translucent pastel washes, feathered pigment edges, subtle texture overlay, zero physical paper borders",
+      "avoid_tokens": "hands, holding paper, easel, painting desk, physical paper edges, mockup, photo, harsh digital render, neon, 3D CGI, hard edges, split screen, comic panels, collage"
+    },
+    {
+      "number": 7,
+      "id": "clay_3d",
+      "name": "Clay 3D (Claymation)",
+      "category": "Animasi & 3D",
+      "description": "Material plastisin dengan tekstur sidik jari dan pencahayaan set miniatur.",
+      "prompt_modifier": "stop-motion claymation style, handcrafted plasticine surfaces, subtle organic thumbprint textures, tactile material detail, soft studio key lighting, miniature set rendering",
+      "avoid_tokens": "flat 2D, smooth sleek digital 3D, live action photo, anime linework, split screen, comic panels, collage"
+    },
+    {
+      "number": 8,
+      "id": "komik_ilustrasi",
+      "name": "Komik Ilustrasi Cetak",
+      "category": "Artistik & Retro",
+      "description": "Ilustrasi komik cetak klasik dengan tinta tegas dan titik halftone Ben-Day.",
+      "prompt_modifier": "vintage classic comic book illustration, full-bleed graphic novel art, dynamic ink linework, visible Ben-Day halftone printing dots, bold graphic contrast, edge-to-edge page layout",
+      "avoid_tokens": "hands holding comic book, physical book cover, desk, mockup, photograph, photorealism, 3D CGI, smooth airbrushed gradient, split screen, comic panels, collage"
+    },
+    {
+      "number": 9,
+      "id": "vox_kolase_arsip",
+      "name": "Kolase Arsip Motion",
+      "category": "Artistik & Retro",
+      "description": "Lapisan foto arsip dan potongan kertas dalam satu komposisi editorial.",
+      "prompt_modifier": "mixed-media documentary illustration, archival photographic texture treatment, restrained color accents, layered editorial composition with printed grain as surface treatment",
+      "avoid_tokens": "standard 3D, anime cartoon, plain video frame, clean digital art, split screen, comic panels, collage"
+    },
+    {
+      "number": 10,
+      "id": "faceless_cctv_3d",
+      "name": "CCTV Low-Poly 3D",
+      "category": "Sinematik & Film",
+      "description": "Estetika kamera pengawas low-poly berwarna hijau; wajah mengikuti mode pilihan.",
+      "prompt_modifier": "CCTV-inspired low-poly 3D rendering, restrained wide-angle distortion, cold monochrome green tint, subtle digital noise, clearly readable silhouettes and actions",
+      "avoid_tokens": "cheerful colors, cartoon 2D, warm romantic lighting, high saturation, split screen, comic panels, collage"
+    },
+    {
+      "number": 11,
+      "id": "warm_outlined_storybook",
+      "name": "Warm Outlined Storybook",
+      "category": "Animasi & 3D",
+      "description": "Ilustrasi gouache amber dengan garis keemasan hangat berpendar.",
+      "prompt_modifier": "warm outlined storybook illustration, soft glowing golden contour lines, warm amber gouache textures, gentle whimsical shapes, diffuse warm lighting",
+      "avoid_tokens": "gritty photorealism, harsh shadows, somber, neon CGI, dark horror, split screen, comic panels, collage"
+    },
+    {
+      "number": 12,
+      "id": "gentle_digital_storybook",
+      "name": "Gentle Digital Storybook",
+      "category": "Animasi & 3D",
+      "description": "Sapuan digital lembut, warna earthy pastel, dan cahaya teduh.",
+      "prompt_modifier": "gentle modern digital storybook aesthetic, soft feathered brushwork, muted earthy pastel tones, calming warm ambient light",
+      "avoid_tokens": "3D CGI, harsh lines, neon saturated colors, dark somber, horror, split screen, comic panels, collage"
+    },
+    {
+      "number": 13,
+      "id": "sinematik_live_action",
+      "name": "Sinematik Live Action 35mm",
+      "category": "Sinematik & Film",
+      "description": "Estetika film 35mm, karakter lensa anamorfik, dan grain organik.",
+      "prompt_modifier": "cinematic 35mm film still, anamorphic lens flare, teal-orange color grade, shallow depth of field with pronounced bokeh, natural volumetric light, organic film grain",
+      "avoid_tokens": "3D render, CGI, cartoon, anime, illustration, amateur, distorted, split screen, comic panels, collage"
+    },
+    {
+      "number": 14,
+      "id": "realistis_foto_nyata",
+      "name": "Realistis Dokumenter",
+      "category": "Sinematik & Film",
+      "description": "Fotografi dokumenter candid dengan cahaya alami dan tekstur realistis.",
+      "prompt_modifier": "RAW still photography, flat ungraded natural color, wide depth of field, clinical crisp textures, lifelike material and skin rendering, authentic photojournalistic framing without color grading",
+      "avoid_tokens": "3D render, CGI, airbrushed, cartoon, heavy digital manipulation, color grade, split screen, comic panels, collage"
+    },
+    {
+      "number": 15,
+      "id": "dokumenter",
+      "name": "Dokumenter Jurnalistik",
+      "category": "Sinematik & Film",
+      "description": "Nuansa kamera handheld, grain dokumenter, dan warna jurnalistik terkendali.",
+      "prompt_modifier": "investigative handheld video documentary, slight rolling shutter, muted desaturated journalistic palette, subtle motion blur, authentic high ISO sensor noise, no cinematic grading",
+      "avoid_tokens": "cartoon, 3D CGI, studio glamour, fantasy neon, cinematic teal-orange, split screen, comic panels, collage"
+    },
+    {
+      "number": 16,
+      "id": "black_stickman_mspaint",
+      "name": "Retro MS Paint Pixel",
+      "category": "Animasi & 3D",
+      "description": "Coretan piksel hitam bergerigi bergaya program paint retro 1995.",
+      "prompt_modifier": "retro basic paint-program aesthetic, 2D digital canvas, crude black pixel linework, aliased jagged outlines, flat solid-fill color areas, quirky minimalist doodle, edge-to-edge screen",
+      "avoid_tokens": "smooth shading, 3D render, photorealism, sophisticated gradient, anti-aliased, hands, mockup, monitor frame, split screen, comic panels, collage"
+    },
+    {
+      "number": 17,
+      "id": "realistik_raw_phone",
+      "name": "Realistik RAW Rekaman HP",
+      "category": "Sinematik & Film",
+      "description": "Estetika rekaman smartphone kasual dengan perspektif lebar alami.",
+      "prompt_modifier": "candid smartphone camera aesthetic, natural wide-angle lens distortion, uncalibrated exposure, lifelike unposed detail, casual phone video texture",
+      "avoid_tokens": "cinematic grade, studio glamour, 3D CGI, anime, airbrushed, split screen, comic panels, collage"
+    },
+    {
+      "number": 18,
+      "id": "aksi_blockbuster",
+      "name": "Aksi Blockbuster Neo-Noir",
+      "category": "Sinematik & Film",
+      "description": "Kontras neon cyan-magenta, sorotan mengilap, dan cahaya dramatis.",
+      "prompt_modifier": "high-energy blockbuster cinematography, intense neon cyan and magenta color contrast, glossy highlights, dramatic theatrical lighting, crisp cinematic detail",
+      "avoid_tokens": "pastel soft, amateur flat, 2D cartoon, desaturated dull, split screen, comic panels, collage"
+    },
+    {
+      "number": 19,
+      "id": "scifi_epik",
+      "name": "Sci-Fi Epik",
+      "category": "Sinematik & Film",
+      "description": "Kedalaman atmosfer, cahaya terarah hangat, dan tekstur sinematik epik.",
+      "prompt_modifier": "epic science-fiction cinematography, grand sense of scale, atmospheric depth, warm directional light, subtle volumetric haze, detailed cinematic rendering",
+      "avoid_tokens": "flat 2D, cartoon, intimate close-up, mundane everyday, photojournalistic, split screen, comic panels, collage"
+    },
+    {
+      "number": 20,
+      "id": "horor_misteri",
+      "name": "Misteri Psikologis",
+      "category": "Sinematik & Film",
+      "description": "Warna biru dingin, bayangan dalam, dan pencahayaan psikologis temaram.",
+      "prompt_modifier": "atmospheric psychological horror cinematography, sickly cold aqua-green tint, deep underexposed shadows, restrained highlights, paranoid close-up framing, oppressive low-key lighting",
+      "avoid_tokens": "cheerful bright colors, warm golden light, cartoon 2D, anime, saturated, split screen, comic panels, collage"
+    },
+    {
+      "number": 21,
+      "id": "thriller_gelap",
+      "name": "Thriller Gelap",
+      "category": "Sinematik & Film",
+      "description": "Nuansa neo-noir hijau-amber dengan kontras tekstur dan bayangan kuat.",
+      "prompt_modifier": "gritty neo-noir street cinematography, warm amber practical-light sources against dark backgrounds, extreme chiaroscuro contrast, desaturated mid-tones, heavy directional shadow patterns",
+      "avoid_tokens": "pastel soft, bright cheerful, CGI animation, anime, flat vector, split screen, comic panels, collage"
+    },
+    {
+      "number": 22,
+      "id": "epik_sejarah",
+      "name": "Epik Sejarah Kolosal",
+      "category": "Sinematik & Film",
+      "description": "Warna debu hangat, cahaya lembut, dan tekstur film epik.",
+      "prompt_modifier": "historical epic cinematography, warm dusty color grading, soft directional sunlight, atmospheric depth, rich cinematic texture, grand visual scale",
+      "avoid_tokens": "neon, futuristic tech, cartoon, anime, modern street photography, split screen, comic panels, collage"
+    },
+    {
+      "number": 23,
+      "id": "period_drama",
+      "name": "Drama Periode Sejarah",
+      "category": "Sinematik & Film",
+      "description": "Warna film pudar, detail material bertekstur, dan gestur yang tertangkap jelas.",
+      "prompt_modifier": "period-drama film-still aesthetic, desaturated bleached color grading, tactile weathered material detail, crisp captured gestures, restrained documentary-style lighting and film texture",
+      "avoid_tokens": "neon color, futuristic, 3D CGI, cartoon, oversaturated, split screen, comic panels, collage"
+    },
+    {
+      "number": 24,
+      "id": "western_sinematik",
+      "name": "Western Sinematik",
+      "category": "Sinematik & Film",
+      "description": "Warna bumi, cahaya keras, bayangan tegas, dan grain film klasik.",
+      "prompt_modifier": "classic western cinema aesthetic, warm earth-tone grading, hard directional light, deep dramatic shadows, vintage film grain, cinematic tonal contrast",
+      "avoid_tokens": "pastel soft, neon, anime, 3D CGI, urban modern setting, split screen, comic panels, collage"
+    },
+    {
+      "number": 25,
+      "id": "retro_80s",
+      "name": "Retro 80-an Synthwave",
+      "category": "Artistik & Retro",
+      "description": "Aksen magenta-cyan, bayangan ungu, neon lembut, dan grain analog synthwave. Pratinjau masih versi retro film lama.",
+      "prompt_modifier": "1980s synthwave visual treatment, magenta and cyan light accents, deep violet shadows, restrained neon bloom, subtle analog grain and chromatic fringing",
+      "avoid_tokens": "photorealism, documentary, muted desaturated, modern minimal, 3D CGI, split screen, comic panels, collage"
+    },
+    {
+      "number": 26,
+      "id": "simetris_pastel",
+      "name": "Simetris Pastel Estetik",
+      "category": "Sinematik & Film",
+      "description": "Komposisi simetris geometris dengan palet turquoise dan pink pastel.",
+      "prompt_modifier": "symmetrical visual composition, curated pastel turquoise and soft pink color palette, precise geometric staging, deadpan whimsical cinema aesthetic",
+      "avoid_tokens": "gritty realism, horror, dark shadows, neon, asymmetrical chaos, split screen, comic panels, collage"
+    },
+    {
+      "number": 27,
+      "id": "film_noir",
+      "name": "Film Noir Monokrom",
+      "category": "Sinematik & Film",
+      "description": "Hitam-putih kontras tinggi dengan chiaroscuro dan grain monokrom.",
+      "prompt_modifier": "1940s vintage film noir, deep contrast black and white cinematography, dramatic chiaroscuro, patterned directional shadows, subtle monochrome film grain",
+      "avoid_tokens": "color saturation, neon, warm golden light, anime cartoon, 3D CGI, split screen, comic panels, collage"
+    },
+    {
+      "number": 28,
+      "id": "cyberpunk_futuristik",
+      "name": "Cyberpunk Neo-Noir",
+      "category": "Sinematik & Film",
+      "description": "Palet neon cyan-magenta, tepian bercahaya, dan material reflektif.",
+      "prompt_modifier": "futuristic neo-noir visual treatment, neon cyan and magenta palette, luminous edge highlights, glossy reflective material rendering, dense atmospheric contrast",
+      "avoid_tokens": "warm pastoral, desaturated muted, 2D flat cartoon, bright daylight, split screen, comic panels, collage"
+    },
+    {
+      "number": 29,
+      "id": "fantasi_epik",
+      "name": "Fantasi Epik",
+      "category": "Sinematik & Film",
+      "description": "Pencahayaan atmosferik lembut, sorotan berpendar, dan detail painterly epik.",
+      "prompt_modifier": "epic fantasy cinematic rendering, ethereal volumetric lighting, luminous highlights, soft atmospheric depth, intricate painterly material detail, grand visual scale",
+      "avoid_tokens": "photojournalistic, mundane everyday, neon cyberpunk, anime flat, split screen, comic panels, collage"
+    },
+    {
+      "number": 30,
+      "id": "anime_modern",
+      "name": "Anime Modern Berpendar",
+      "category": "Anime & Manga",
+      "description": "Garis anime bersih, cel shading, dan pencahayaan berpendar.",
+      "prompt_modifier": "high-end contemporary Japanese anime, crisp expressive linework, refined cel shading, radiant bloom lighting, luminous highlights, polished keyframe detail",
+      "avoid_tokens": "photorealistic, 3D CGI, gritty documentary, flat vector, american comic, western comics, split screen, comic panels, collage"
+    },
+    {
+      "number": 31,
+      "id": "anime_ghibli",
+      "name": "Anime Lukis Nostalgia",
+      "category": "Anime & Manga",
+      "description": "Sapuan gouache animasi lukis dengan warna natural dan cahaya hangat.",
+      "prompt_modifier": "hand-painted Japanese animation aesthetic, textured gouache brushwork, soft rounded forms, gentle natural color palette, warm diffuse light, nostalgic rendering",
+      "avoid_tokens": "gritty photorealism, neon cyberpunk, 3D CGI, harsh digital lines, split screen, comic panels, collage"
+    },
+    {
+      "number": 32,
+      "id": "anime_shonen",
+      "name": "Anime Shonen Dinamis",
+      "category": "Anime & Manga",
+      "description": "Garis tinta dinamis, bentuk bersudut ekspresif, dan cel shading tegas.",
+      "prompt_modifier": "high-energy shonen anime style, dynamic ink linework, expressive angular shapes, dramatic keyframe lighting, vibrant colors, crisp cel shading",
+      "avoid_tokens": "soft watercolor, photorealism, 3D CGI, muted low contrast, split screen, comic panels, collage"
+    },
+    {
+      "number": 33,
+      "id": "anime_retro_90s",
+      "name": "Anime Cel Retro 90-an",
+      "category": "Anime & Manga",
+      "description": "Warna cel klasik, garis tangan, dan grain siaran analog era 90-an.",
+      "prompt_modifier": "1990s Japanese cel animation aesthetic, rich vintage cel paint colors, subtle analog broadcast grain, expressive hand-drawn outlines, moody tonal shading",
+      "avoid_tokens": "sharp modern CGI, neon synthwave, 3D render, clean digital anti-aliased, split screen, comic panels, collage"
+    },
+    {
+      "number": 34,
+      "id": "anime_gelap",
+      "name": "Anime Gelap",
+      "category": "Anime & Manga",
+      "description": "Cross-hatching tinta tebal, warna desaturasi, dan bayangan dramatis.",
+      "prompt_modifier": "dark dramatic anime style, heavy black ink cross-hatching, desaturated twilight color palette, bold shadow shapes, intense angular linework",
+      "avoid_tokens": "bright cheerful colors, soft pastel, 3D CGI, photorealistic, split screen, comic panels, collage"
+    },
+    {
+      "number": 35,
+      "id": "manga_hitam_putih",
+      "name": "Manga Hitam-Putih Screentone",
+      "category": "Anime & Manga",
+      "description": "Garis pena silang dan screentone cetak dalam estetika manga monokrom.",
+      "prompt_modifier": "detailed Japanese manga illustration, full-bleed 2D artwork, intricate hand-drawn pen-and-ink cross-hatching, printed screentone dot textures, high-contrast monochrome rendering, edge-to-edge layout",
+      "avoid_tokens": "hands holding manga, physical tankobon, book mockup, desk, photograph, color saturation, 3D CGI, photorealism, split screen, comic panels, collage"
+    },
+    {
+      "number": 36,
+      "id": "chibi_kawaii",
+      "name": "Chibi Vinil Koleksi 3D",
+      "category": "Animasi & 3D",
+      "description": "Material vinil matte dan pastel lembut; karakter memakai proporsi chibi.",
+      "prompt_modifier": "adorable 3D chibi figurine style, smooth matte vinyl finish, oversized expressive head proportions, soft pastel studio illumination, miniature collectible rendering",
+      "avoid_tokens": "gritty realistic anatomy, dark somber, live action, harsh shadows, split screen, comic panels, collage"
+    },
+    {
+      "number": 37,
+      "id": "cgi_3d_film",
+      "name": "CGI 3D Film Fitur",
+      "category": "Animasi & 3D",
+      "description": "Bentuk 3D stilisasi, material halus, dan pencahayaan fitur animasi.",
+      "prompt_modifier": "high-end stylized feature animation, dramatic theatrical stage lighting with strong rim light, complex expressive facial rigs, richly detailed world-building environment depth",
+      "avoid_tokens": "flat 2D, cheap 3D asset, live action realistic, anime linework, split screen, comic panels, collage"
+    },
+    {
+      "number": 38,
+      "id": "disney_klasik_2d",
+      "name": "Animasi Sel Tradisional 2D",
+      "category": "Animasi & 3D",
+      "description": "Animasi sel tradisional dengan garis tangan dan warna gouache kaya.",
+      "prompt_modifier": "golden-era hand-drawn cel animation style, lush gouache textures, fluid expressive cleanup lines, theatrical warm key light, rich traditional painted colors",
+      "avoid_tokens": "3D CGI, distorted 3D, live action, digital photograph, sharp modern digital, split screen, comic panels, collage"
+    },
+    {
+      "number": 39,
+      "id": "disney_modern_3d",
+      "name": "Animasi 3D Ekspresif",
+      "category": "Animasi & 3D",
+      "description": "Bentuk 3D ekspresif, siluet tubuh jelas, dan material berpencahayaan lembut.",
+      "prompt_modifier": "contemporary stylized 3D animation, exaggerated expressive silhouette, bold readable character body shape, soft subsurface skin scattering, hero cinematic key light",
+      "avoid_tokens": "claymation, live action photography, harsh brutalist, flat 2D cartoon, split screen, comic panels, collage"
+    },
+    {
+      "number": 40,
+      "id": "cgi_pixar",
+      "name": "Karakter 3D Stylized Hangat",
+      "category": "Animasi & 3D",
+      "description": "Bentuk 3D membulat, tekstur kain, dan cahaya keemasan hangat.",
+      "prompt_modifier": "charming heartfelt 3D stylized animation, golden hour warm sunlight, soft global illumination, tactile woven cloth and food surface detail, rounded expressive forms, intimate close emotional staging",
+      "avoid_tokens": "flat 2D, live action, anime, distorted, blurry, low quality, monochrome, split screen, comic panels, collage"
+    },
+    {
+      "number": 41,
+      "id": "cgi_ceria_slapstick",
+      "name": "CGI 3D Ceria Slapstick",
+      "category": "Animasi & 3D",
+      "description": "Bentuk 3D ekspresif ceria dengan warna jenuh dan cahaya studio terang.",
+      "prompt_modifier": "zany cheerful 3D animation style, exaggerated expressive proportions, bright bouncy studio lighting, hyper-vibrant saturated colors, playful smooth material rendering",
+      "avoid_tokens": "dark somber, grim realistic, gritty film grain, anime, horror, split screen, comic panels, collage"
+    },
+    {
+      "number": 42,
+      "id": "komik_3d_hybrid",
+      "name": "Komik-3D Halftone Offset",
+      "category": "Animasi & 3D",
+      "description": "Bentuk 3D bergaris komik dengan halftone dan efek cetak offset CMYK.",
+      "prompt_modifier": "hybrid graphic novel 3D aesthetic, comic book halftone dots, visible CMYK offset print chromatic aberration, bold graphic contours, energetic stylized depth",
+      "avoid_tokens": "standard photorealism, plain live action, bland 3D, anime flat, split screen, comic panels, collage"
+    },
+    {
+      "number": 43,
+      "id": "painterly_3d",
+      "name": "Painterly 3D Digital Brush",
+      "category": "Animasi & 3D",
+      "description": "Sapuan kuas terlihat pada bentuk dan material 3D bergaya lukisan.",
+      "prompt_modifier": "painterly expressive digital brushwork over stylized 3D forms, hand-painted matte textures, dramatic theatrical lighting, visible painterly brush strokes",
+      "avoid_tokens": "flat cartoon, cheap 3D model, untextured CGI, anime chibi, photographic, split screen, comic panels, collage"
+    },
+    {
+      "number": 44,
+      "id": "kartun_2d_misteri",
+      "name": "Kartun 2D Misteri",
+      "category": "Animasi & 3D",
+      "description": "Outline kartun tebal, warna musim gugur, dan cel shading rata.",
+      "prompt_modifier": "retro-modern mystery 2D cartoon animation style, bold thick outlines, richly saturated autumnal color palette, expressive simplified shapes, flat cel shading",
+      "avoid_tokens": "3D render, CGI, photorealistic, blurry low quality, anime, split screen, comic panels, collage"
+    },
+    {
+      "number": 45,
+      "id": "paper_cutout",
+      "name": "Paper Cutout Stop-Motion",
+      "category": "Animasi & 3D",
+      "description": "Lapisan seni kertas potong dengan kedalaman bayangan dimensional.",
+      "prompt_modifier": "layered paper craft cutout style, full-frame folk art stop-motion rendering, visible fibrous cardstock texture on shapes, subtle cast shadows between layered silhouettes, edge-to-edge composition",
+      "avoid_tokens": "hands, fingers holding cutouts, scissors, crafting desk, physical table, mockup, photograph, smooth 3D CGI, liquid watercolor, split screen, comic panels, collage"
+    },
+    {
+      "number": 46,
+      "id": "low_poly_3d",
+      "name": "Low-Poly 3D Isometrik",
+      "category": "Animasi & 3D",
+      "description": "Permukaan poligon geometris, cahaya pastel, dan proyeksi isometrik.",
+      "prompt_modifier": "elegant low-poly 3D isometric art, faceted geometric surfaces, pastel gradient ambient lighting, minimalist shapes, clean isometric projection",
+      "avoid_tokens": "high poly, photorealistic, messy sketch, dirty textures, anime, split screen, comic panels, collage"
+    },
+    {
+      "number": 47,
+      "id": "pixel_art_16bit",
+      "name": "Pixel Art 16-Bit Retro",
+      "category": "Artistik & Retro",
+      "description": "Cluster piksel tegas dan palet terbatas bergaya game retro 16-bit.",
+      "prompt_modifier": "authentic 16-bit retro pixel art, carefully placed pixel clusters, vibrant curated 32-color palette, crisp pixel edges, nostalgic CRT scanline texture",
+      "avoid_tokens": "smooth vector, anti-aliasing blur, high-res photography, 3D CGI, split screen, comic panels, collage"
+    },
+    {
+      "number": 48,
+      "id": "cat_minyak_impasto",
+      "name": "Cat Minyak Impasto Kanvas",
+      "category": "Artistik & Retro",
+      "description": "Sapuan pigmen cat minyak tebal dan relief tekstur kanvas.",
+      "prompt_modifier": "impasto oil painting style, thick textured visible brushwork, expressive post-impressionist color, swirling paint strokes and tactile pigment ridges across the full scene",
+      "avoid_tokens": "smooth flat digital, photographic precision, 3D render, anime linework, split screen, comic panels, collage"
+    }
+  ],
+  "standard_aspect_ratio": "16:9",
+  "framing_directive": "Wide horizontal 16:9 cinematic framing, single continuous wide scene"
+}
