@@ -1,15 +1,21 @@
 {
-  "version": "2.0.1",
+  "version": "2.1.0",
   "min_version": "2.0.1",
-  "released": "2026-10-31",
+  "released": "2026-11-10",
   "platforms": {
     "windows": {
-      "url": "https://github.com/intisariapps-com/intisariShortMovie/releases/download/v2.0.1/intisariShortMovie-windows.zip",
-      "sha256": "5784921161f28be4df79aaf13546653000e6c13d1dcd76d843411f7320c00c99",
-      "size_mb": 240.73,
-      "setup_url": "https://github.com/intisariapps-com/intisariShortMovie/releases/download/v2.0.1/intisariShortMovie-Setup.exe"
+      "version": "2.1.0",
+      "min_version": "2.0.1",
+      "available": true,
+      "url": "https://github.com/intisariapps-com/intisariShortMovie/releases/latest/download/intisariShortMovie-windows.zip",
+      "sha256": "8ce0a683d832d20b9f6f8e618a05904949be5805bd7c3652970e24557cfa9a3a",
+      "size_mb": 240.81,
+      "setup_url": "https://github.com/intisariapps-com/intisariShortMovie/releases/latest/download/intisariShortMovie-Setup.exe"
     },
     "mac_arm64": {
+      "version": "2.0.1",
+      "min_version": "2.0.1",
+      "available": true,
       "dmg_name": "intisariShortMovie-mac-arm64.dmg",
       "dmg_url": "https://github.com/intisariapps-com/intisariShortMovie/releases/download/v2.0.1/intisariShortMovie-mac-arm64.dmg",
       "url": "https://github.com/intisariapps-com/intisariShortMovie/releases/download/v2.0.1/intisariShortMovie-mac-arm64.zip",
@@ -20,6 +26,9 @@
       "zip_size_mb": 182.17
     },
     "mac_x86": {
+      "version": "2.0.1",
+      "min_version": "2.0.1",
+      "available": true,
       "dmg_name": "intisariShortMovie-mac-x86.dmg",
       "dmg_url": "https://github.com/intisariapps-com/intisariShortMovie/releases/download/v2.0.1/intisariShortMovie-mac-x86.dmg",
       "url": "https://github.com/intisariapps-com/intisariShortMovie/releases/download/v2.0.1/intisariShortMovie-mac-x86.zip",
@@ -30,5 +39,5 @@
       "zip_size_mb": 235.02
     }
   },
-  "notes": "Rilis Stabil v2.0.1 (The Resilient Director & Universal Sync): Resiliensi mesin AI Director dengan fast-failover cookie 0.6s dan batas waktu realistis 75s, pop-up error modal terstruktur, FlowAutoBridge standalone engine & eksportir draf CapCut 1-klik, otomatisasi subfolder proyek, akselerasi GPU multi-platform (QSV/VideoToolbox/NVENC), perbaikan rasio 16:9 thumbnail WebKit macOS, storyboard skala besar 100-250 adegan, dan pre-flight guard Groq Whisper."
+  "notes": "Rilis v2.1.0 (Storyboard Studio & Unified Project Flow): pembuatan proyek storyboard dari nol dengan impor Markdown dan kontrol narasi/karakter/prompt; progress gambar Gemini dan Worker disatukan pada UI sementara antrean tetap independen; konteks folder proyek disinkronkan lintas workspace; peningkatan navigasi folder, pemeriksaan status cookie, dan kesiapan render audio. Update dan batas wajib dikelola per platform; Mac tetap pada v2.0.1 sampai paketnya tersedia. Minimum version global tetap 2.0.1 untuk kompatibilitas klien lama."
 }
