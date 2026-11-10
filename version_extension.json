@@ -1,4 +1,4 @@
 {
-  "extension_version": "2.9.6",
-  "extension_notes": "Gemini In-Page Slide Panel Drawer, Centralized API Keys & Multi-Account Netscape Cookies TXT Exporter (v2.9.6-stable)"
+  "extension_version": "2.11.0",
+  "extension_notes": "Pintasan prompt karakter 1-klik (@NamaKarakter), penamaan file otomatis sesuai judul cerita tanpa kode acak UUID, tombol ekspor storyboard JSON mandiri, pemilih rasio video cepat (16:9 & 9:16), dan indikator versi aktif (v2.11.0-stable)"
 }
