@@ -1,0 +1,7 @@
+{
+  "version": "2.13.3",
+  "name": "FlowAutoBridge",
+  "description": "Chrome Extension for Google Flow Automation, Canvas Snapshot Baseline, Gemini Web Drawer & Multi-Account Cookies Exporter",
+  "author": "faldi-intisariClipper",
+  "notes": "Deteksi tombol Submit Flow lebih akurat; kanal update publik disinkronkan dari satu sumber versi (v2.13.3)"
+}
