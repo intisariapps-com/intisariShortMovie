@@ -1,15 +1,15 @@
 {
-  "version": "2.1.0",
+  "version": "2.1.1",
   "min_version": "2.0.1",
-  "released": "2026-11-10",
+  "released": "2026-11-19",
   "platforms": {
     "windows": {
-      "version": "2.1.0",
+      "version": "2.1.1",
       "min_version": "2.0.1",
       "available": true,
       "url": "https://github.com/intisariapps-com/intisariShortMovie/releases/latest/download/intisariShortMovie-windows.zip",
-      "sha256": "32a2d5de9a0be2779004bc943e192062828c65fdc1da0daf4f109903df18056c",
-      "size_mb": 240.85,
+      "sha256": "3281230fc62b025fec11c26eb87a8ebcd53afbe2379a0a156c4be2f0f2faed15",
+      "size_mb": 238.01,
       "setup_url": "https://github.com/intisariapps-com/intisariShortMovie/releases/latest/download/intisariShortMovie-Setup.exe"
     },
     "mac_arm64": {
@@ -39,5 +39,5 @@
       "zip_size_mb": 243.05
     }
   },
-  "notes": "Rilis v2.1.0 (Storyboard Studio & Unified Project Flow): pembuatan proyek storyboard dari nol dengan impor Markdown dan kontrol narasi/karakter/prompt; progress gambar Gemini dan Worker disatukan pada UI sementara antrean tetap independen; konteks folder proyek disinkronkan lintas workspace; peningkatan navigasi folder, pemeriksaan status cookie, dan kesiapan render audio. Minimum version global tetap 2.0.1 untuk kompatibilitas klien lama."
+  "notes": "Rilis v2.1.1 (Multi-JSON Storyboard Merge, Audio JSON & Gemini Video Engine): Penggabungan multi-file storyboard JSON otomatis; Navigasi Video Studio pada command dock; Pengelolaan cookie sesi Gemini lokal & sinkronisasi cache; Gemini Image-to-Video dengan deteksi batas kuota cerdas; Standarisasi aset kanonis ADEGAN_XXX dan paket plugin multi-provider PROVIDER_PACKS."
 }
