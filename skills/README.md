@@ -1,4 +1,4 @@
-# Paket Provider Gem_Custem (v2.8.7)
+# Paket Provider Plugin Universal 
 
 Setiap folder provider (`GPT/`, `Claude/`, `Gemini/`, `Antigravity/`) murni memuat berkas ZIP resmi dengan penamaan berakhiran versi (`*-v{version}.zip`):
 
