@@ -1,15 +1,15 @@
 {
-  "version": "2.1.1",
+  "version": "2.1.2",
   "min_version": "2.0.1",
   "released": "2026-11-19",
   "platforms": {
     "windows": {
-      "version": "2.1.1",
-      "min_version": "2.0.1",
+      "version": "2.1.2",
+      "min_version": "2.1.1",
       "available": true,
       "url": "https://github.com/intisariapps-com/intisariShortMovie/releases/latest/download/intisariShortMovie-windows.zip",
-      "sha256": "3281230fc62b025fec11c26eb87a8ebcd53afbe2379a0a156c4be2f0f2faed15",
-      "size_mb": 238.01,
+      "sha256": "62bad7c07705dd3fa768bfaf0adf9dba27c57b8b9e6f4de574b96a156d6b4519",
+      "size_mb": 238.12,
       "setup_url": "https://github.com/intisariapps-com/intisariShortMovie/releases/latest/download/intisariShortMovie-Setup.exe"
     },
     "mac_arm64": {

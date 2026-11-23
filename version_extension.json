@@ -1,6 +1,6 @@
 {
-  "extension_version": "3.0.0",
-  "extension_notes": "Otonomi Sutradara Hands-Free Pipeline, Universal JSON Uploader & Dropzone, Skalabilitas Pagination 500+ Adegan (v2.12.0)",
-  "extension_sha256": "4251405d0852bb5cacc41e5c702c64e06905a9f7c2745e35b59c9c706e174e59",
-  "extension_size_bytes": 349638
+  "extension_version": "3.0.1",
+  "extension_notes": "Iframe-Safe CapCut Picker Fallback, SSOT Whisper Auto-Sanitizer & Contiguous Zero-Gap Scene Timing (v3.0.1)",
+  "extension_sha256": "ee0136472b0a462978260a14d64e07f1e7567f305bfea0024cab6c3c869ac255",
+  "extension_size_bytes": 358064
 }
