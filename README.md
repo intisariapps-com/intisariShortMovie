@@ -39,6 +39,20 @@ Aplikasi utama yang mengambil alih setelah FlowAutoBridge selesai:
 
 ---
 
+## 🎛️ Opsi Kualitas Render & Karakteristik Output
+
+Aplikasi menyediakan fleksibilitas penuh dalam menentukan profil rendering sesuai kebutuhan produksi:
+
+| Tipe Ekspor | Bitrate & Ukuran (6 Menit) | Karakteristik & Peruntukan |
+|---|---|---|
+| **1. Draft (Cepat & Ringan)** | ~3.000 kbps<br>**(±120 – 160 MB)** | **Resolusi tetap 1080p Full HD**, diproses dengan kompresi kilat (`preset ultrafast`). Sangat ideal untuk pratinjau cepat (*preview draft*), validasi alur cerita, atau perangkat dengan spesifikasi laptop hemat daya. |
+| **2. HD 1080p (Potongan Langsung / Hard Cut)** | ~6.500 kbps<br>**(±250 – 290 MB)** | Profil mastering visual tajam maksimal dengan akselerasi GPU (Intel QSV, NVIDIA NVENC, AMD AMF) atau CPU CRF 19. Menghasilkan gambar *pixel-perfect* tanpa artefak buram, sangat kokoh untuk video dengan pergantian adegan cepat (*cut to cut*). |
+| **3. HD 1080p (Transisi Sinematik Dynamic / Xfade)** | ~4.800 kbps<br>**(±200 – 220 MB)** | Menggunakan arsitektur *Hierarchical Chunked Engine* dengan transisi halus (*dissolve, slide, wipe, zoom*). **Mengapa ukuran file lebih ramping dari HD biasa?** Efek tumpang tindih (*overlap*) transisi antar adegan secara dinamis memadatkan kompresi frame tanpa mengurangi ketajaman visual sedikit pun, menghasilkan rasio ukuran yang sempurna agar video tidak dikompresi pecah oleh algoritma TikTok/Reels/Shorts. |
+
+> 💡 **Fakta Resolusi:** Seluruh opsi di atas tetap menghasilkan video dengan resolusi kanvas penuh **1080p** sehingga rasio visual dan penempatan subtitle tidak pernah bergeser. Perbedaan ukuran semata-mata berasal dari laju kepadatan bit data (*bitrate*) dan gaya transisi yang dipilih.
+
+---
+
 ## 🖼️ Tampilan Aplikasi
 
 Antarmuka modern berbasis web yang berjalan sebagai aplikasi desktop native — tidak perlu buka browser terpisah. Dilengkapi:
