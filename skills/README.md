@@ -1,10 +1,10 @@
-# Paket Provider Plugin Universal 
+# Paket Provider Gem_Custem (v2.8.7)
 
 Setiap folder provider (`GPT/`, `Claude/`, `Gemini/`, `Antigravity/`) murni memuat berkas ZIP resmi dengan penamaan berakhiran versi (`*-v{version}.zip`):
 
 | Berkas ZIP Resmi Berversi | Jenis & Peran | Versi Mandiri |
 |---|---|---|
-| `01-flow-storyboard-director-v3.0.0.zip` | Single-Skill (Flow & Intisari Storyboard Director) | `v3.0.0` |
+| `01-flow-storyboard-director-v3.1.0.zip` | Single-Skill (Flow & Intisari Storyboard Director) | `v3.1.0` |
 | `02-realita-pov-scriptwriter-v2.0.0.zip` | Single-Skill (Realita POV Scriptwriter) | `v2.0.0` |
 | `03-faceless-documentary-script-v2.0.0.zip` | Single-Skill (Faceless Documentary Scriptwriter) | `v2.0.0` |
 
