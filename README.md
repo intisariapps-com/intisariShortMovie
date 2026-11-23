@@ -51,6 +51,18 @@ Aplikasi menyediakan fleksibilitas penuh dalam menentukan profil rendering sesua
 
 > 💡 **Fakta Resolusi:** Seluruh opsi di atas tetap menghasilkan video dengan resolusi kanvas penuh **1080p** sehingga rasio visual dan penempatan subtitle tidak pernah bergeser. Perbedaan ukuran semata-mata berasal dari laju kepadatan bit data (*bitrate*) dan gaya transisi yang dipilih.
 
+### ⏱️ Hasil Benchmark Kecepatan Nyata (Uji Coba Video 6 Menit)
+
+Berikut adalah data performa riil pada pengujian proyek film pendek **52 Adegan (Durasi Video: 6 Menit 06 Detik / 1080x1920 Full HD)** menggunakan laptop Windows standar (GPU terintegrasi Intel QuickSync):
+
+| Profil Render | Waktu Render Nyata | Kecepatan Relatif | Ukuran File Final | Rata-rata per Adegan |
+|---|---|---|---|---|
+| **Draft (Ultrafast)** | **~3 Menit 10 Detik** | **~1,9x lebih cepat** dari durasi video | **±150 MB** | ~3,6 detik / adegan |
+| **HD 1080p (Transisi Dynamic)** | **3 Menit 59 Detik** | **~1,5x lebih cepat** dari durasi video | **209,59 MB** | ~4,6 detik / adegan |
+| **HD 1080p (Hard Cut)** | **4 Menit 21 Detik** | **~1,4x lebih cepat** dari durasi video | **285,98 MB** | ~5,0 detik / adegan |
+
+*Catatan: Waktu di atas sudah mencakup proses pergerakan kamera (motion dynamics), pembakaran subtitle karaoke animasi per kata, penjahitan puluhan adegan, dan normalisasi kenyaringan audio standar industri (-14 LUFS).*
+
 ---
 
 ## 🖼️ Tampilan Aplikasi
